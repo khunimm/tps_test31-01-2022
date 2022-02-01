@@ -370,7 +370,7 @@ section{
    padding:4rem 2rem;
    border-radius: .5rem;
    transform: scale(.9);
-   opacity: .5;
+   /* opacity: .5; */
    margin-bottom: 4rem;
    cursor: pointer;
 }
@@ -392,14 +392,14 @@ section{
    width: 100rem;
    transform: scale(1);
    opacity: 1;
-   background: var(--white);
+   background: var(--dark);
    box-shadow: var(--box-shadow);
-   border:var(--border);
+   border:var(--black);
 }
 
 .food .slide img{
    height: 35rem;
-   width: 70rem;
+   width: 40rem;
    margin-bottom: 1rem;
 }
 
@@ -411,7 +411,7 @@ section{
 
 .food .slide .price{
    font-size: 3.5rem;
-   color:var(--orange);
+   color:var(--white);
 }
 
 .food-preview-container{
