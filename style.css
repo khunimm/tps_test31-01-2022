@@ -370,7 +370,7 @@ section{
    padding:4rem 2rem;
    border-radius: .5rem;
    transform: scale(.9);
-   /* opacity: .5; */
+   opacity: .5;
    margin-bottom: 4rem;
    cursor: pointer;
 }
@@ -389,7 +389,7 @@ section{
 }
 
 .food .swiper-slide-active{
-   width: 100rem;
+   /* width: 100rem; */
    transform: scale(1);
    opacity: 1;
    background: var(--dark);
@@ -399,7 +399,7 @@ section{
 
 .food .slide img{
    height: 35rem;
-   width: 40rem;
+   width: 35rem;
    margin-bottom: 1rem;
 }
 
@@ -471,6 +471,48 @@ section{
    font-size: 2.5rem;
    color:var(--black);
    margin-bottom: .5rem;
+}
+
+.foods{
+   background: var(--dark);
+}
+
+.foods .slider{
+   text-align: center;
+   padding:4rem 2rem;
+   border-radius: .5rem;
+   transform: scale(.9);
+   opacity: .5;
+   margin-bottom: 4rem;
+   cursor: pointer;
+}
+
+
+.swiper-pagination-bullet{
+    background: var(--white);
+ }
+
+.swiper-pagination-bullet-active{
+   background: var(--orange);
+}
+
+.swiper-horizontal>.swiper-pagination-bullets, .swiper-pagination-bullets.swiper-pagination-horizontal{
+   bottom:0;
+}
+
+.foods .swiper-slide-active{
+   /* width: 100rem; */
+   transform: scale(1);
+   opacity: 1;
+   background: var(--dark);
+   box-shadow: var(--box-shadow);
+   border:var(--black);
+}
+
+.foods .slider img{
+   height: 50rem;
+   width: 50rem;
+   margin-bottom: 1rem;
 }
 
 #close-preview{
@@ -811,17 +853,17 @@ section{
   }
   
   .banner-container .banner{
-    flex:1 1 40rem;
-    height: 50rem;
+    flex:1 1 30rem;
+    height: 75rem;
     overflow: hidden;
     position: relative;
   }
   
   .banner-container .banner img{
     height: 100%;
-    width:100%;
+    width: 100%;
     object-fit: cover;
-    opacity: 0.3;
+    /* opacity: 0.3; */
   }
   
   .banner-container .banner .content{
@@ -842,7 +884,7 @@ section{
   }
   
   .banner-container .banner:hover img{
-    transform:scale(1.2) rotate(-5deg);
+    transform:scale(1);
   }
 
 
@@ -903,6 +945,12 @@ section{
       color: var(--black);
    }
 
+   .foods .slider img{
+      height: 35rem;
+      width: 35rem;
+      margin-bottom: 1rem;
+   }
+
    .swiper-button-next,
    .swiper-button-prev{
       top:initial;
@@ -913,6 +961,13 @@ section{
       flex-flow: column;
       text-align: center;
    }
+
+   .banner-container .banner{
+      flex:1 1 40rem;
+      height: 60rem;
+      overflow: hidden;
+      position: relative;
+    }
 }
 
 @media (max-width:450px){
