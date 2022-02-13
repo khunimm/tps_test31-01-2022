@@ -159,7 +159,7 @@ section{
 }
 
 .header .navbar a{
-   font-size: 2rem;
+   font-size: 1.9rem;
    margin-left: 2rem;
    color:var(--white);
 }
@@ -479,7 +479,7 @@ section{
 
 .foods .slider{
    text-align: center;
-   padding:4rem 2rem;
+   padding:4rem 0rem 2rem;
    border-radius: .5rem;
    transform: scale(.9);
    opacity: .5;
@@ -501,7 +501,7 @@ section{
 }
 
 .foods .swiper-slide-active{
-   /* width: 100rem; */
+   width: 100rem;
    transform: scale(1);
    opacity: 1;
    background: var(--dark);
@@ -729,6 +729,7 @@ section{
 
 .blogs .slide .content{
    padding:2rem;
+   height: 30rem;
    background: var(--white);
    box-shadow: var(--box-shadow);
    border:var(--border);
@@ -892,12 +893,79 @@ section{
 
 /* media queries  */
 
+@media (max-width:1500px){
+
+   .foods .slider img{
+      height: 40rem;
+      width: 50rem;
+      margin-bottom: 1rem;
+   }
+
+   .banner-container .banner{
+      flex:1 1 50rem;
+      height: 100rem;
+      overflow: hidden;
+      position: relative;
+    }
+
+    .banner-container .banner img{
+      height: 90%;
+      width: 90%;
+      object-fit: cover;
+      /* opacity: 0.3; */
+    }
+   
+}
+
 @media (max-width:1200px){
 
    section{
       padding:3rem 5%;
    }
 
+   .foods .slider img{
+      height: 35rem;
+      width: 35rem;
+      margin-bottom: 1rem;
+   }
+   
+   .banner-container .banner{
+      flex:1 1 40rem;
+      height: 85rem;
+      overflow: hidden;
+      position: relative;
+    }
+
+    .banner-container .banner img{
+      height: 90%;
+      width: 90%;
+      object-fit: cover;
+      /* opacity: 0.3; */
+    }
+   
+}
+
+@media (max-width:1100px){
+
+   .foods .slider img{
+      height: 40rem;
+      width: 40rem;
+      margin-bottom: 1rem;
+   }
+/* 
+   .banner-container .banner{
+      flex:1 1 30rem;
+      height: 75rem;
+      overflow: hidden;
+      position: relative;
+    }
+
+    .banner-container .banner img{
+      height: 100%;
+      width: 100%;
+      object-fit: cover;
+    } */
+   
 }
 
 @media (max-width:991px){
@@ -912,6 +980,12 @@ section{
 
    .home .slide .content h3{
       font-size: 15vw;
+   }
+
+   .foods .slider img{
+      height: 45rem;
+      width: 45rem;
+      margin-bottom: 1rem;
    }
 
 }
@@ -941,13 +1015,13 @@ section{
 
    .header .navbar a{
       display: block;
-      margin:2rem;
+      margin: 2rem;
       color: var(--black);
    }
 
    .foods .slider img{
-      height: 35rem;
-      width: 35rem;
+      height: 50rem;
+      width: 50rem;
       margin-bottom: 1rem;
    }
 
@@ -963,10 +1037,17 @@ section{
    }
 
    .banner-container .banner{
-      flex:1 1 40rem;
-      height: 60rem;
+      flex:1 1 30rem;
+      height: 130rem;
       overflow: hidden;
       position: relative;
+    }
+
+    .banner-container .banner img{
+      height: 60%;
+      width: 105%;
+      object-fit: cover;
+      /* opacity: 0.3; */
     }
 }
 
@@ -979,5 +1060,16 @@ section{
    .home .slide .content h3{
       font-size: 7rem;
    }
+
+   section{
+      padding:3rem 5%;
+   }
+
+   .banner-container .banner{
+      flex:1 1 30rem;
+      height: 140rem;
+      overflow: hidden;
+      position: relative;
+    }
 
 }
