@@ -1011,14 +1011,14 @@ section{
       margin-bottom: 1rem;
    }
    
-   .banner-container .banner{
+   .banner-containers .banner{
       flex:1 1 40rem;
-      height: 85rem;
+      height: 50%;
       overflow: hidden;
       position: relative;
     }
 
-    .banner-container .banner img{
+    .banner-containers .banner img{
       height: 90%;
       width: 90%;
       object-fit: cover;
@@ -1034,6 +1034,20 @@ section{
       width: 30rem;
       margin-bottom: 1rem;
    }
+
+   .banner-containers .banner{
+      flex:1 1 40rem;
+      height: 50%;
+      overflow: hidden;
+      position: relative;
+    }
+
+    .banner-containers .banner img{
+      height: 90%;
+      width: 90%;
+      object-fit: cover;
+      /* opacity: 0.3; */
+    }
    
 }
 
