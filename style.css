@@ -871,7 +871,7 @@ section{
     
     position: absolute;
     top:50%; left: 4%;
-    transform: translateY(-120%);
+    transform: translateY(-50%);
   }
   
   .banner-container .banner .content h3{
@@ -996,7 +996,25 @@ section{
    width: 50rem;
    color: var(--white);
  }
-   
+ .banner-container .banner .content{
+    
+   position: absolute;
+   top:50%; left: 4%;
+   /* transform: translateY(-700%); */
+ }
+ 
+ .banner-container .banner .content h3{
+   font-size: 3rem;
+   color:var(--orange);
+ }
+ 
+ .banner-container .banner .content p{
+   font-size: 1.5rem;
+   color: var(--white);
+   text-overflow: ellipsis;
+   max-width: 45ch;
+ }
+ 
 }
 
 @media (max-width:1200px){
@@ -1023,6 +1041,25 @@ section{
       width: 90%;
       object-fit: cover;
       /* opacity: 0.3; */
+    }
+
+    .banner-container .banner .content{
+    
+      position: absolute;
+      top:50%; left: 4%;
+      /* transform: translateY(-700%); */
+    }
+    
+    .banner-container .banner .content h3{
+      font-size: 3rem;
+      color:var(--orange);
+    }
+    
+    .banner-container .banner .content p{
+      font-size: 1.5rem;
+      color: var(--white);
+      text-overflow: ellipsis;
+    max-width: 40ch;
     }
    
 }
@@ -1085,6 +1122,25 @@ section{
       /* opacity: 0.3; */
     }
 
+    .banner-container .banner .content{
+    
+      position: absolute;
+      top:50%; left: 4%;
+      /* transform: translateY(-700%); */
+    }
+    
+    .banner-container .banner .content h3{
+      font-size: 3rem;
+      color:var(--orange);
+    }
+    
+    .banner-container .banner .content p{
+      font-size: 1.5rem;
+      color: var(--white);
+      text-overflow: ellipsis;
+    max-width: 30ch;
+    }
+
 }
 
 @media (max-width:768px){
@@ -1133,21 +1189,81 @@ section{
       text-align: center;
    }
 
+   .banner-container .banner .content{
+    
+      position: absolute;
+      top:50%; left: 4%;
+      /* transform: translateY(-700%); */
+    }
+    
+    .banner-container .banner .content h3{
+      font-size: 3rem;
+      color:var(--orange);
+    }
+    
+    .banner-container .banner .content p{
+      font-size: 1.5rem;
+      color: var(--white);
+      text-overflow: ellipsis;
+    max-width: 30ch;
+    }
+
    .banner-container .banner{
       flex:1 1 30rem;
-      height: 50rem;
+      height: 80rem;
       overflow: hidden;
       position: relative;
     }
 
     .banner-container .banner img{
-      height: 20%;
+      height: 30%;
       width: 100%;
-      /* object-fit: cover; */
+      object-fit: cover;
       /* opacity: 0.3; */
     }
+
+
 }
 
+
+
+@media (max-width:580px){
+
+   .banner-container .banner .content{
+    
+      position: absolute;
+      top:50%; left: 4%;
+      /* transform: translateY(-700%); */
+    }
+    
+    .banner-container .banner .content h3{
+      font-size: 3rem;
+      color:var(--orange);
+    }
+    
+    .banner-container .banner .content p{
+      font-size: 1.5rem;
+      color: var(--white);
+      text-overflow: ellipsis;
+    max-width: 50ch;
+    }
+
+   .banner-container .banner{
+      flex:1 1 30rem;
+      height: 80rem;
+      overflow: hidden;
+      position: relative;
+    }
+
+    .banner-container .banner img{
+      height: 30%;
+      width: 100%;
+      object-fit: cover;
+      /* opacity: 0.3; */
+    }
+
+
+}
 @media (max-width:450px){
 
    html{
@@ -1167,6 +1283,39 @@ section{
       height: 140rem;
       overflow: hidden;
       position: relative;
+    }
+
+    .banner-container .banner .content{
+    
+      position: absolute;
+      top:50%; left: 4%;
+      /* transform: translateY(-700%); */
+    }
+    
+    .banner-container .banner .content h3{
+      font-size: 3rem;
+      color:var(--orange);
+    }
+    
+    .banner-container .banner .content p{
+      font-size: 1.5rem;
+      color: var(--white);
+      text-overflow: ellipsis;
+    max-width: 35ch;
+    }
+
+   .banner-container .banner{
+      flex:1 1 30rem;
+      height: 80rem;
+      overflow: hidden;
+      position: relative;
+    }
+
+    .banner-container .banner img{
+      height: 30%;
+      width: 100%;
+      object-fit: cover;
+      /* opacity: 0.3; */
     }
 
 }
