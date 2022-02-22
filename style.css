@@ -510,7 +510,7 @@ section{
 }
 
 .foods .slider img{
-   height: 50rem;
+   height: 40rem;
    width: 50rem;
    margin-bottom: 1rem;
 }
@@ -937,10 +937,41 @@ section{
 
 /* media queries  */
 
+@media (max-width:1700px){
+
+   .foods .slider img{
+      height: 33rem;
+      width: 43rem;
+      margin-bottom: 1rem;
+   }
+
+   .banner-containers .banner{
+      flex:1 1 10rem;
+      height: 50%;
+      overflow: hidden;
+      position: relative;
+    }
+
+    .banner-containers .banner img{
+      height: 50%;
+      width: 100%;
+      object-fit: cover;
+      /* opacity: 0.3; */
+    }
+
+      
+  .banner-container .banner .content p{
+   font-size: 2rem;
+   width: 50rem;
+   color: var(--white);
+ }
+   
+}
+
 @media (max-width:1500px){
 
    .foods .slider img{
-      height: 35rem;
+      height: 30rem;
       width: 40rem;
       margin-bottom: 1rem;
    }
@@ -971,8 +1002,8 @@ section{
 @media (max-width:1400px){
 
    .foods .slider img{
-      height: 30rem;
-      width: 35rem;
+      height: 23rem;
+      width: 33rem;
       margin-bottom: 1rem;
    }
 
@@ -1024,13 +1055,13 @@ section{
    }
 
    .foods .slider img{
-      height: 35rem;
+      height: 25rem;
       width: 35rem;
       margin-bottom: 1rem;
    }
    
    .banner-containers .banner{
-      flex:1 1 40rem;
+      flex:1 1 20rem;
       height: 50%;
       overflow: hidden;
       position: relative;
