@@ -893,12 +893,12 @@ section{
    background-color: var(--dark);
    display: flex;
    flex-wrap: wrap;
-   gap:1.5rem;
+   /* gap:1.5rem; */
  }
  
  .banner-containers .banner{
    flex:1 1 30rem;
-   height: 110rem;
+   height: 50%;
    overflow: hidden;
    position: relative;
  }
