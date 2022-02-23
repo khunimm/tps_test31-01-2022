@@ -1220,33 +1220,33 @@ section{
       text-align: center;
    }
 
-   .banner-container .banner .content{
+   .banner-containers .banner .content{
     
       position: absolute;
       top:50%; left: 4%;
       /* transform: translateY(-700%); */
     }
     
-    .banner-container .banner .content h3{
+    .banner-containers .banner .content h3{
       font-size: 3rem;
       color:var(--orange);
     }
     
-    .banner-container .banner .content p{
+    .banner-containers .banner .content p{
       font-size: 1.5rem;
       color: var(--white);
       text-overflow: ellipsis;
     max-width: 30ch;
     }
 
-   .banner-container .banner{
+   .banner-containers .banner{
       flex:1 1 30rem;
-      height: 80rem;
+      height: 50%;
       overflow: hidden;
       position: relative;
     }
 
-    .banner-container .banner img{
+    .banner-containers .banner img{
       height: 30%;
       width: 100%;
       object-fit: cover;
@@ -1267,27 +1267,27 @@ section{
       /* transform: translateY(-700%); */
     }
     
-    .banner-container .banner .content h3{
+    .banner-containers .banner .content h3{
       font-size: 3rem;
       color:var(--orange);
     }
     
-    .banner-container .banner .content p{
+    .banner-containers .banner .content p{
       font-size: 1.5rem;
       color: var(--white);
       text-overflow: ellipsis;
     max-width: 50ch;
     }
 
-   .banner-container .banner{
+   .banner-containers .banner{
       flex:1 1 30rem;
-      height: 80rem;
+      height: 50%;
       overflow: hidden;
       position: relative;
     }
 
-    .banner-container .banner img{
-      height: 30%;
+    .banner-containers .banner img{
+      height: 20%;
       width: 100%;
       object-fit: cover;
       /* opacity: 0.3; */
