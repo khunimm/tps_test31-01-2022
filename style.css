@@ -861,7 +861,7 @@ section{
   }
   
   .banner-container .banner img{
-    height: 60%;
+    height: 50%;
     width: 100%;
     object-fit: cover;
     opacity: 0.5;
@@ -871,7 +871,7 @@ section{
     
     position: absolute;
     top:50%; left: 4%;
-    transform: translateY(-50%);
+    transform: translateY(-80%);
   }
   
   .banner-container .banner .content h3{
