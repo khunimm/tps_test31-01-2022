@@ -870,7 +870,7 @@ section{
   .banner-container .banner .content{
     
     position: absolute;
-    top:50%; left: 4%;
+    top:60%; left: 4%;
     transform: translateY(-80%);
   }
   
