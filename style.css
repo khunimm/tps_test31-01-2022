@@ -34,6 +34,7 @@
    --light-black:#666;
    --light-white:#ccc;
    --light-bg:#f5f5f5;
+   --test1: #EAEAEA ;
    --dark-bg:rgba(0,0,0,.7);
    --border:.1rem solid #aaa;
    --box-shadow:0 .5rem 1rem rgba(0,0,0,.1);
@@ -70,7 +71,7 @@ html::-webkit-scrollbar-track{
 }
 
 html::-webkit-scrollbar-thumb{
-   background-color: var(--orange);
+   background-color: var(--light-black);
 }
 
 section{
@@ -794,8 +795,8 @@ section{
    height: 6rem;
    width: 6rem;
    border-radius: 50%;
-   background: var(--orange);
-   color:var(--white);
+   background: var(--white);
+   color:var(--dark);
    margin-bottom: .5rem;
    line-height: 5.8rem;
    font-size: 2rem;
@@ -822,16 +823,16 @@ section{
    height: 6rem;
    width: 6rem;
    line-height: 5.8rem;
-   color:var(--orange);
+   color:var(--dark);
    background: var(--white);
    margin:0 .3rem;
    font-size: 2.5rem;
 }  
 
 .footer .share a:hover{
-    border-radius: 20%;
-    color:var(--white);
-    background: var(--orange);
+    border-radius: 50%;
+    color:var(--dark);
+    background: var(--white);
 }
 
 .footer .credit{
